@@ -1,0 +1,22 @@
+
+This is the 'README' file for XDF (the Exquisite `df') from <botao.org>
+
+Xdf is a 'souped-up' version of df(1).
+
+It features flexible selection of status details, size units, and output format/encoding ;
+
+Also, it automatically skips nfs/tmpfs filesystems, thus giving a good idea of "local/physical" disk usage ;
+
+Building could hardly be simpler; just
+
+$ ./configure
+$ make
+$ make install
+
+- and you're done, gnu-style (*).
+
+Xdf was created in a bit of a hurry,
+so the 'to do' file has plenty of tasks.
+
+June 2020,
+Alexandre Botao.
